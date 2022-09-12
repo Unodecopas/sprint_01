@@ -1,12 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Old+Standard+TT&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Old+Standard+TT:wght@400;700&family=Roboto:wght@400;700&display=swap");
 * {
   /* border: 0.1px solid; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   --archivo-font: "Archivo", sans-serif;
+  --roboto-font: "Roboto", sans-serif;
   --tt-font: "Old Standard TT", serif;
   --white-color: #FFFFFF;
+  --darkwhite-color: #F8F8F8;
   --black-color: #111111;
   --darkgray-color: #222222;
   --gray-color: #333333;
@@ -88,13 +90,86 @@ body {
 }
 
 .welcome {
-  margin-top: 140px;
+  margin-top: 14px;
 }
 
 .footer {
-  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 5px;
+  padding: 20px;
+  background-image: url(../../../../src/assets/img/footer-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__logo {
+  width: 245px;
+  height: 80px;
+  margin-left: -20px;
+  background-image: url(../../../../src/assets/icons/logo-large.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__description {
+  margin-top: 47px;
+}
+.footer__social img {
+  padding: 10px;
+  margin-top: 30px;
+  background-color: var(--darkwhite-color);
+}
+.footer__social img:hover {
+  filter: brightness(110%);
+  background-color: var(--gold-color);
+}
+.footer__title {
+  font-size: 24px;
+  margin-top: 30px;
+  color: var(--darkgray-color);
+}
+.footer ul {
+  min-width: 330px;
+  max-width: 400px;
+  -moz-columns: 2;
+       columns: 2;
+  font-family: var(--roboto-font);
+  list-style: none;
+  color: var(--lightgray-color);
+  font-size: 16px;
+  line-height: 48px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+.footer__contact {
+  width: 200px;
+  margin-top: 32px;
+  margin-bottom: 30px;
+}
+.footer__contact img {
+  position: absolute;
+}
+.footer__contact p {
+  margin-left: 60px;
+  line-height: 24px;
+}
+.footer__contact__p1 {
+  color: var(--darkgray-color);
+  font-size: 20px;
+  right: 0;
+}
+.footer__contact__p2 {
+  font-family: var(--roboto-font);
+  color: var(--lightgray-color);
+  font-size: 14px;
+}
+.footer__copyright {
+  width: 100%;
+  padding: 16px 20px;
+  background-color: var(--darkwhite-color);
+  font-family: var(--roboto-font);
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer__copyright__p1 {
+  margin-bottom: 24px;
 }/*# sourceMappingURL=style.css.map */
