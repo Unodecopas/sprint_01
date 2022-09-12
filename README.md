@@ -1,6 +1,6 @@
 # Módulo 1:
 
-### [Click aquí para ver el ejemplo](https://gm-gith.github.io/sprint_01)
+### [Click aquí para ver el ejemplo](https://gm-gith.github.io/sprint_01/public/index.html)
 
 ### Título del proyecto: 
 *Como hemos puesto en la primera línea*
