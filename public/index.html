@@ -33,10 +33,21 @@
       </ul>
     </div>
     <div class="welcome">
-      <p>welcome</p>
+      <p class="welcome__p1">THE ULTIMATE LUXURY EXPERIENCE</p>
+      <P class="welcome__p2">The Perfect Base For You</P>
+      <button class="welcome__btn welcome__btn--default">TAKE A TOUR</button>
+      <button class="welcome__btn">LEARN MORE</button>
     </div>
     <div class="availability">
-      <p>availability</p>
+      <form class="availability__form" action="#">
+        <label class="availability__form__label" for="arrival">Arrival Date</label>
+        <img src="../src/assets/icons/calendar.png" alt="calendar">
+        <input class="availability__form__input" type="text" id="arrival" name="arrival" placeholder="24th march 2020" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
+        <label class="availability__form__label" for="departure">LeDeparture Date</label>
+        <img src="../src/assets/icons/calendar.png" alt="calendar">
+        <input class="availability__form__input" type="text" id="departure" name="departure" placeholder="30th march 2020" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
+        <button class="availability__form__btn" type="none">CHECK AVAILABILITY</button>
+      </form>
     </div>
     <div class="about_us" id="about-us">
       <p>about_us</p>
