@@ -210,7 +210,7 @@ body {
   margin-top: -170px;
 }
 .about__us__container2__div--info {
-  background-image: url("../../../../src/assets/icons/team-bg.png");
+  background-image: url("../../../src/assets/icons/team-bg.png");
   background-repeat: no-repeat;
   background-position: right 50px;
   text-align: center;
