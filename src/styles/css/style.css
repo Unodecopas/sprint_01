@@ -161,23 +161,70 @@ body {
   padding: 23px 25px;
 }
 
-.about_us {
+.about__us {
   margin-top: 60px;
-  padding: 20px;
-  background-color: var(--darkestwhite-color);
   font-family: var(--archivo-font);
   color: var(--lightgray-color);
 }
-.about_us__p1 {
+.about__us__container1 {
+  background-color: var(--darkestwhite-color);
+  padding: 38px 20px 175px 20px;
+}
+.about__us__container1__p1 {
   font-size: 13px;
   letter-spacing: 3px;
   font-weight: 700;
 }
-.about_us__p2 {
+.about__us__container1__p2 {
   font-family: var(--tt-font);
   color: var(--black-color);
   font-size: 56px;
   margin-top: 30px;
+  letter-spacing: -1px;
+}
+.about__us__container1__p3 {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+.about__us__container1__btn {
+  font-size: 14px;
+  letter-spacing: 3px;
+  padding: 22px 57px;
+  border: none;
+  background-color: var(--gold-color);
+  color: var(--white-color);
+  margin-top: 24px;
+}
+.about__us__container2 {
+  background-color: var(--white-color);
+  padding: 50px;
+}
+.about__us__container2__div {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.about__us__container2__div--img {
+  height: 300px; /*********************************************************** REPLACE WITH PHOTO */
+  background-color: var(--lightgray-color);
+  margin-top: -170px;
+}
+.about__us__container2__div--info {
+  background-image: url("../../../../src/assets/icons/team-bg.png");
+  background-repeat: no-repeat;
+  background-position: right 50px;
+  text-align: center;
+  padding: 50px 35px 38px 35px;
+  box-shadow: 0px 8px 16px rgba(34, 34, 34, 0.02);
+}
+.about__us__container2__div__p1 {
+  font-family: var(--tt-font);
+  font-size: 30px;
+  margin-top: 29px;
+  margin-bottom: 21px;
+}
+.about__us__container2__div__p2 {
+  font-family: var(--roboto-font);
 }
 
 .footer {
