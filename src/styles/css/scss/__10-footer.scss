@@ -3,14 +3,14 @@
   bottom: 0;
   width: 100%;
   padding: 20px;
-  background-image: url("https://gm-gith.github.io/sprint_01/src/assets/img/footer-bg.svg");
+  background-image: url("../../../../../sprint_01/src/assets/img/footer-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   &__logo {
     width: 245px;
     height: 80px;
     margin-left: -20px;
-    background-image: url("https://gm-gith.github.io/sprint_01/src/assets/img/logo-large.png");
+    background-image: url("../../../../../sprint_01/src/assets/icons/logo-large.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -48,11 +48,11 @@
     margin-top: 32px;
     margin-bottom: 30px;
     & img {
-      position: absolute;
+        position: absolute;
     }
     & p {
-      margin-left: 60px;
-      line-height: 24px;
+        margin-left: 60px;
+        line-height: 24px;
     }
     &__p1 {
       color: var(--darkgray-color);
@@ -73,7 +73,7 @@
     font-size: 16px;
     font-weight: 700;
     &__p1 {
-      margin-bottom: 24px;
+        margin-bottom: 24px;
     }
   }
 }
