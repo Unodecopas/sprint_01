@@ -227,6 +227,82 @@ body {
   font-family: var(--roboto-font);
 }
 
+.rooms__container1 {
+  background-color: var(--white-color);
+  color: var(--white-color);
+  padding: 0 50px;
+}
+.rooms__container1__div {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.rooms__container1__div--img {
+  height: 300px; /*********************************************************** REPLACE WITH PHOTO */
+  background-color: var(--lightgray-color);
+}
+.rooms__container1__div--info {
+  background-color: var(--darkgray-color);
+  text-align: center;
+  padding: 50px 35px 38px 35px;
+  box-shadow: 0px 8px 16px rgba(34, 34, 34, 0.02);
+}
+.rooms__container1__div__p1 {
+  font-family: var(--tt-font);
+  font-size: 30px;
+  margin-top: 29px;
+  margin-bottom: 21px;
+}
+.rooms__container1__div__p2 {
+  font-family: var(--roboto-font);
+  font-size: 14px;
+}
+.rooms__container2 {
+  text-align: center;
+  padding-top: 60px;
+}
+.rooms__container2__p1 {
+  font-family: var(--archivo-font);
+  font-size: 14px;
+  letter-spacing: 3px;
+  padding-bottom: 24px;
+}
+.rooms__container2__p2 {
+  color: var(--darkgray-color);
+  font-size: 56px;
+  margin-bottom: 24px;
+}
+.rooms__container2__slider {
+  background-color: var(--lightgray-color);
+  height: 240px;
+  margin-top: -50px;
+}
+.rooms__container2__description {
+  background-color: var(--white-color);
+  padding: 19px 24px;
+  margin: -20px 20px 30px 20px;
+}
+.rooms__container2__description__p1 {
+  font-size: 28px;
+  letter-spacing: -1px;
+  margin-bottom: 12px;
+}
+.rooms__container2__description__p2 {
+  color: var(--lightgray-color);
+  font-family: var(--roboto-font);
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.rooms__container2__description__p3 {
+  color: var(--gold-color);
+  font-family: var(--archivo-font);
+  font-weight: 700;
+  font-size: 32px;
+}
+.rooms__container2__description__p3--mini {
+  font-size: 13px;
+}
+
 .footer {
   left: 0;
   bottom: 0;
