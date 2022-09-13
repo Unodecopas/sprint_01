@@ -9,6 +9,7 @@
   --tt-font: "Old Standard TT", serif;
   --white-color: #FFFFFF;
   --darkwhite-color: #F8F8F8;
+  --darkestwhite-color: #F9F9F9;
   --black-color: #111111;
   --darkgray-color: #222222;
   --gray-color: #333333;
@@ -160,12 +161,31 @@ body {
   padding: 23px 25px;
 }
 
+.about_us {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: var(--darkestwhite-color);
+  font-family: var(--archivo-font);
+  color: var(--lightgray-color);
+}
+.about_us__p1 {
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.about_us__p2 {
+  font-family: var(--tt-font);
+  color: var(--black-color);
+  font-size: 56px;
+  margin-top: 30px;
+}
+
 .footer {
   left: 0;
   bottom: 0;
   width: 100%;
   padding: 20px;
-  background-image: url(../../../../src/assets/img/footer-bg.svg);
+  background-image: url(../../../../../src/assets/img/footer-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -173,7 +193,7 @@ body {
   width: 245px;
   height: 80px;
   margin-left: -20px;
-  background-image: url(../../../../src/assets/icons/logo-large.png);
+  background-image: url(../../../../../src/assets/icons/logo-large.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

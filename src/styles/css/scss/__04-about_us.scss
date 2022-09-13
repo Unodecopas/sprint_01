@@ -1,0 +1,18 @@
+.about_us {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: var(--darkestwhite-color);
+    font-family: var(--archivo-font);
+    color: var(--lightgray-color);
+    &__p1 {
+        font-size: 13px;
+        letter-spacing: 3px;
+        font-weight: 700;
+    }
+    &__p2 {
+        font-family: var(--tt-font);
+        color: var(--black-color);
+        font-size: 56px;
+        margin-top: 30px;
+    }
+}
