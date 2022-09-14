@@ -440,6 +440,30 @@ body {
   background-color: var(--lightgray-color);
 }
 
+.counter {
+  background-color: var(--darkgray-color);
+  font-family: var(--roboto-font);
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 60px;
+}
+.counter__div {
+  font-weight: 700;
+}
+.counter__div img {
+  margin: 48px 0 16px 0;
+}
+.counter__div__p1 {
+  color: var(--white-color);
+  font-size: 60px;
+  line-height: 60px;
+}
+.counter__div__p2 {
+  color: var(--lightgray-color);
+  font-size: 16px;
+  line-height: 16px;
+}
+
 .footer {
   left: 0;
   bottom: 0;
