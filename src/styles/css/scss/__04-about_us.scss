@@ -27,10 +27,15 @@
       font-weight: 700;
       letter-spacing: 3px;
       padding: 22px 57px;
-      border: none;
-      background-color: var(--gold-color);
-      color: var(--white-color);
+      border: 2px solid var(--lightgray-color);
+      background-color: var(--darkestwhite-color);
+      color: var(--lightgray-color);
       margin-top: 24px;
+      &:hover {
+        color: var(--white-color);
+        background-color: var(--gold-color);
+        border: 2px solid var(--gold-color);
+      }
     }
   }
   &__container2 {
