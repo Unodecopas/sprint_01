@@ -1,0 +1,81 @@
+.rooms {
+  &__container1 {
+    background-color: var(--white-color);
+    color: var(--white-color);
+    padding: 0 50px;
+    &__div {
+      max-width: 400px;
+      margin: 0 auto;
+      &--img {
+        background-image: url(../../../src/assets/img/room-luxury.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px; /*********************************************************** REPLACE WITH PHOTO */
+        background-color: var(--lightgray-color);
+      }
+      &--info {
+        background-color: var(--darkgray-color);
+        text-align: center;
+        padding: 50px 35px 38px 35px;
+        box-shadow: 0px 8px 16px rgba(34, 34, 34, 0.02);
+      }
+      &__p1 {
+        font-family: var(--tt-font);
+        font-size: 30px;
+        margin-top: 29px;
+        margin-bottom: 21px;
+      }
+      &__p2 {
+        font-family: var(--roboto-font);
+        font-size: 14px;
+      }
+    }
+  }
+  &__container2 {
+    text-align: center;
+    padding-top: 60px;
+    &__p1 {
+        font-family: var(--archivo-font);
+        font-size: 14px;
+        letter-spacing: 3px;
+        padding-bottom: 24px;
+    }
+    &__p2 {
+        color: var(--darkgray-color);
+        font-size: 56px;
+        margin-bottom: 24px;
+    }
+    &__slider {
+        background-color: var(--lightgray-color);
+        height: 240px;
+        margin-top: -50px;
+    }
+    &__description {
+        background-color: var(--white-color);
+        padding: 19px 24px;
+        margin: -20px 20px 30px 20px;
+        &__p1 {
+            font-size: 28px;
+            letter-spacing: -1px;
+            margin-bottom: 12px;
+        }
+        &__p2 {
+            color: var(--lightgray-color);
+            font-family: var(--roboto-font);
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 12px;
+        }
+        &__p3 {
+            color: var(--gold-color);
+            font-family: var(--archivo-font);
+            font-weight: 700;
+            font-size: 32px;
+            &--mini {
+                font-size: 13px;
+            }
+        }
+    }
+  }
+}

@@ -214,10 +214,15 @@ body {
   padding: 50px;
 }
 .about__us__container2__div {
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
 }
 .about__us__container2__div--img {
+  background-image: url(../../../src/assets/img/strong-team.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 4px;
   height: 300px; /*********************************************************** REPLACE WITH PHOTO */
   background-color: var(--lightgray-color);
   margin-top: -170px;
@@ -246,10 +251,14 @@ body {
   padding: 0 50px;
 }
 .rooms__container1__div {
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
 }
 .rooms__container1__div--img {
+  background-image: url(../../../src/assets/img/room-luxury.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 300px; /*********************************************************** REPLACE WITH PHOTO */
   background-color: var(--lightgray-color);
 }
@@ -342,6 +351,7 @@ body {
 }
 .video__intro {
   display: block;
+  min-width: 100%;
   background-color: var(--lightestgray-color);
   margin: 0 auto;
 }
@@ -403,7 +413,7 @@ body {
 
 .menu {
   padding: 115px 20px 0 20px;
-  margin-top: 50px;
+  margin: 50px auto 0 auto;
   background-image: url(../../../src/assets/icons/donut.png);
   background-repeat: no-repeat;
   background-position: top right;
@@ -424,6 +434,10 @@ body {
   letter-spacing: -1px;
   color: var(--darkgray-color);
   margin-bottom: 32px;
+}
+.menu__div1 {
+  max-width: 400px;
+  margin: 0 auto;
 }
 .menu__div1__food__img {
   position: absolute;
@@ -446,10 +460,15 @@ body {
   line-height: 24px;
 }
 .menu__div2 {
-  height: 335px; /********************************************************************************** DELETE WITH PHOTO */
+  background-image: url(../../../src/assets/img/dinner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 3px;
+  max-width: 400px;
+  height: 450px; /********************************************************************************** DELETE WITH PHOTO */
   padding: 20px;
-  margin-top: 60px;
-  margin-bottom: 31px;
+  margin: 60px auto 31px auto;
   background-color: var(--lightgray-color);
 }
 
