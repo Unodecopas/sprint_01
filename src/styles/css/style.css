@@ -388,6 +388,58 @@ body {
   padding-right: 75px;
 }
 
+.menu {
+  padding: 115px 20px 0 20px;
+  margin-top: 50px;
+  background-image: url(../../../src/assets/icons/donut.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.menu__img {
+  background-image: url(../../../src/assets/icons/donut.png);
+}
+.menu__p1 {
+  font-family: var(--archivo-font);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: var(--lightgray-color);
+  margin-bottom: 24px;
+}
+.menu__p2 {
+  font-size: 56px;
+  letter-spacing: -1px;
+  color: var(--darkgray-color);
+  margin-bottom: 32px;
+}
+.menu__div1__food__img {
+  position: absolute;
+  width: 120px; /****************************************************************************** DELETE WITH PHOTO */
+  height: 120px; /***************************************************************************** DELETE WITH PHOTO */
+  background-color: var(--lightgray-color); /************************************************** DELETE WITH PHOTO */
+  margin-bottom: 16px;
+}
+.menu__div1__food__p1 {
+  padding-top: 6px;
+  margin-left: 150px;
+  color: var(--darkgray-color);
+  font-size: 24px;
+  letter-spacing: -0.5px;
+}
+.menu__div1__food__p2 {
+  margin: 12px 0 22px 150px;
+  font-family: var(--roboto-font);
+  font-size: 14px;
+  line-height: 24px;
+}
+.menu__div2 {
+  height: 335px; /********************************************************************************** DELETE WITH PHOTO */
+  padding: 20px;
+  margin-top: 60px;
+  margin-bottom: 31px;
+  background-color: var(--lightgray-color);
+}
+
 .footer {
   left: 0;
   bottom: 0;
@@ -407,15 +459,25 @@ body {
 }
 .footer__description {
   margin-top: 47px;
+  font-family: var(--archivo-font);
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--lightgray-color);
 }
-.footer__social img {
-  padding: 10px;
+.footer__social {
   margin-top: 30px;
+}
+.footer__social__div {
+  display: inline-block;
+  padding: 8px 8px 2px 8px;
+  margin: 2px;
   background-color: var(--darkwhite-color);
 }
-.footer__social img:hover {
-  filter: brightness(110%);
+.footer__social__div:hover {
   background-color: var(--gold-color);
+}
+.footer__social__div:hover img {
+  filter: brightness(200);
 }
 .footer__title {
   font-size: 24px;

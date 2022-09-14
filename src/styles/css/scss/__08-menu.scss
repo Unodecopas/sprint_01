@@ -1,0 +1,55 @@
+.menu {
+  padding: 115px 20px 0 20px;
+  margin-top: 50px;
+  background-image: url(../../../src/assets/icons/donut.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  &__img {
+    background-image: url(../../../src/assets/icons/donut.png);
+  }
+  &__p1 {
+    font-family: var(--archivo-font);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: var(--lightgray-color);
+    margin-bottom: 24px;
+  }
+  &__p2 {
+    font-size: 56px;
+    letter-spacing: -1px;
+    color: var(--darkgray-color);
+    margin-bottom: 32px;
+  }
+  &__div1 {
+    &__food {
+      &__img {
+        position: absolute;
+        width: 120px; /****************************************************************************** DELETE WITH PHOTO */
+        height: 120px; /***************************************************************************** DELETE WITH PHOTO */
+        background-color: var(--lightgray-color); /************************************************** DELETE WITH PHOTO */
+        margin-bottom: 16px;
+      }
+      &__p1 {
+        padding-top: 6px;
+        margin-left: 150px;
+        color: var(--darkgray-color);
+        font-size: 24px;
+        letter-spacing: -0.5px;
+      }
+      &__p2 {
+        margin: 12px 0 22px 150px;
+        font-family: var(--roboto-font);
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+  &__div2 {
+    height: 335px; /********************************************************************************** DELETE WITH PHOTO */
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 31px;
+    background-color: var(--lightgray-color);
+  }
+}
