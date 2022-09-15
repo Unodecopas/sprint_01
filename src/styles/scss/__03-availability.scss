@@ -4,7 +4,9 @@
   font-family: var(--roboto-font);
   padding: 0 20px 0 20px;
   &__form {
+    max-width: 600px;
     padding: 36px 0;
+    margin: 0 auto;
     &__label {
       display: block;
       margin-top: 30px;

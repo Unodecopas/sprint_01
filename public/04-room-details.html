@@ -18,7 +18,7 @@
       <img class="navbar__user" src="../src/assets/icons/user.png" alt="user logo">
       <img class="navbar__search" src="../src/assets/icons/search.png" alt="search">
       <ul class="navbar__menu hidden">
-        <a class="navbar__menu__a" href="#about-us">
+        <a class="navbar__menu__a" href="./02-about.html">
           <li class="navbar__menu__li">About Us</li>
         </a>
         <a class="navbar__menu__a" href="#rooms">
@@ -34,68 +34,51 @@
     </div>
     <div class="welcome">
       <p class="welcome__p1">THE ULTIMATE LUXURY</p>
-      <p class="welcome__p2">About Us</p>
+      <p class="welcome__p2">Ultimate Room</p>
       <div class="breadcrumb">
-        <p><a href="./index.html">Home </a><span>|</span> About</p>
+        <p><a href="./index.html">Home </a><span>|</span> Room Details</p>
       </div>
     </div>
-    <div class="about__us" id="about-us">
-      <div class="about__us__container3">
-        <video class="about__us__container3__video" src="../src/assets/video/intro.mp4" muted controls width="320"></video>
-        <p class="about__us__container3__p1">Hello. Our hotel has been 
-          present for over 20 years. 
-          We make the best for all 
-          our customers.</p>
+    <div class="rooms" id="rooms">
+      <div class="rooms__container4">
+        <p class="rooms__container4__p1">DOUBLE BED</p>
+        <p class="rooms__container4__p2">Luxury Double Bed</p>
+        <p class="rooms__container4__p3">$345<label class="rooms__container2__description__p3--mini">/Night</label></p>
+        <div class="rooms__container4__slider"></div>
       </div>
-      <div class="about__us__btn">
-        <img src="../src/assets/icons/btn-breakfast.svg" alt="breakfast icon">
-        <img src="../src/assets/icons/btn-pickup.svg" alt="airport pickup icon">
-        <img src="../src/assets/icons/btn-guide.svg" alt="city guide icon">
-        <img src="../src/assets/icons/btn-room.svg" alt="luxury room icon">
-      </div>
-      <div class="about__us__container4">
-        <div class="about__us__container4__img"></div>
-        <p class="about__us__container4__p1">RESTAURANT</p>
-        <p class="about__us__container4__p2">Get Restaurant Facilities & Many Other More</p>
-        <p class="about__us__container4__p3">Lorem ipsum dolor sit amet, consectetur 
-          adipisicing elit, sed do eiusmod tem por 
-          incididunt ut labore et dolore magna aliqua. Ut 
-          enim ad minim veniam, quis nostrud 
-          exercitation ullamco laboris nisi ut aliquip.</p>
-        <button class="about__us__container4__btn">TAKE A TOUR</button>
-      </div>
-      <div class="about__us__container5">
-        <p class="about__us__container5__p1">FACILITIES</p>
-        <p class="about__us__container5__p2">Core Features</p>
-        <div class="about__us__container5__div">
-          <img src="../src/assets/icons/stars.png" alt="stars">
-          <p class="about__us__container5__div__p1">Have High Rating</p>
-          <p class="about__us__container5__div__p2">Lorem ipsum dolor sit amet, consectetur 
-            adipisicing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna..</p>
-        </div>
-      </div>
-      <div class="about__us__container6">
-        <p class="about__us__container6__p1">COUNTER</p>
-        <p class="about__us__container6__p2">Some Fun Facts</p>
-        <div class="about__us__container6__facts">
-          <div class="about__us__container6__facts__div">
-            <img src="../src/assets/icons/happy-user.svg" alt="happy user icon">
-            <p class="about__us__container6__facts__p1">8000</p>
-            <p class="about__us__container6__facts__p2">Happy Users</p>
-          </div>
-          <div class="about__us__container6__facts__div">
-            <img src="../src/assets/icons/stars-review.svg" alt="positive review icon">
-            <p class="about__us__container6__facts__p1">10M</p>
-            <p class="about__us__container6__facts__p2">Reviews & Appriciate</p>
-          </div>
-          <div class="about__us__container6__facts__div">
-            <img src="../src/assets/icons/country-coverage.svg" alt="map coverage icon">
-            <p class="about__us__container6__facts__p1">100</p>
-            <p class="about__us__container6__facts__p2">Country Coverage</p>
-          </div>
-        </div>
-        <div class="about__us__container6__slider"></div>
+      <form class="rooms__availability" action="#">
+        <p class="rooms__availability__p1">Check Availability</p>
+        <label class="rooms__availability__label" for="arrival">Check-in</label>
+        <input class="rooms__availability__input" type="text" id="checkin" name="checkin" placeholder="Fri, 14th June 2020" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}" >
+        <img src="../src/assets/icons/calendar-dark.svg" alt="calendar">
+        <label class="rooms__availability__label" for="departure">Check-out</label>
+        <input class="rooms__availability__input" type="text" id="checkout" name="checkout" placeholder="Sun, 16th June 2020" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
+        <img src="../src/assets/icons/calendar-dark.svg" alt="calendar">
+        <button class="rooms__availability__btn" type="none">CHECK AVAILABILITY</button>
+      </form>
+      <p class="rooms__text">Lorem ipsum dolor sit amet, consectetur adipisicing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip ex 
+        ea commodo consequat. Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum. Sed ut 
+        perspiciatis unde omnis iste natus error sit 
+        voluptatem accusantium doloremque laudantium, 
+        totam rem aperiam, eaque ipsa quae ab illo inventore 
+        veritatis et quasi architecto beatae vitae dicta sunt 
+        explicabo. Nemo enim ipsam voluptatem quia 
+        voluptas sit aspernatur aut odit aut fugit, sed quia 
+        consequuntur magni dolores eos qui ratione 
+        voluptatem sequi nesciunt. Neque porro quisquam 
+        est, qui dolorem ipsum quia dolor sit amet, 
+        consectetur, adipisci velit, sed quia non numquam 
+        eius modi tempora incidunt ut labore et dolore 
+        magnam aliquam quaerat voluptatem.</p>
+      <div class="rooms__amenities">
+        <div class="rooms__amenities__img"></div>
       </div>
     </div>
     <div class="footer">
