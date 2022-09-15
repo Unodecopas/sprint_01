@@ -36,46 +36,50 @@
     text-align: center;
     padding-top: 60px;
     &__p1 {
-        font-family: var(--archivo-font);
-        font-size: 14px;
-        letter-spacing: 3px;
-        padding-bottom: 24px;
+      font-family: var(--archivo-font);
+      font-size: 14px;
+      letter-spacing: 3px;
+      padding-bottom: 24px;
     }
     &__p2 {
-        color: var(--darkgray-color);
-        font-size: 56px;
-        margin-bottom: 24px;
+      color: var(--darkgray-color);
+      font-size: 56px;
+      margin-bottom: 24px;
     }
     &__slider {
-        background-color: var(--lightgray-color);
-        height: 240px;
-        margin-top: -50px;
+      background-image: url(../../../src/assets/img/room-minimal.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: var(--lightgray-color);
+      height: 240px;
+      margin-top: -50px;
     }
     &__description {
-        background-color: var(--white-color);
-        padding: 19px 24px;
-        margin: -20px 20px 30px 20px;
-        &__p1 {
-            font-size: 28px;
-            letter-spacing: -1px;
-            margin-bottom: 12px;
+      background-color: var(--white-color);
+      padding: 19px 24px;
+      margin: -20px 20px 30px 20px;
+      &__p1 {
+        font-size: 28px;
+        letter-spacing: -1px;
+        margin-bottom: 12px;
+      }
+      &__p2 {
+        color: var(--lightgray-color);
+        font-family: var(--roboto-font);
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 12px;
+      }
+      &__p3 {
+        color: var(--gold-color);
+        font-family: var(--archivo-font);
+        font-weight: 700;
+        font-size: 32px;
+        &--mini {
+          font-size: 13px;
         }
-        &__p2 {
-            color: var(--lightgray-color);
-            font-family: var(--roboto-font);
-            font-size: 14px;
-            line-height: 24px;
-            margin-bottom: 12px;
-        }
-        &__p3 {
-            color: var(--gold-color);
-            font-family: var(--archivo-font);
-            font-weight: 700;
-            font-size: 32px;
-            &--mini {
-                font-size: 13px;
-            }
-        }
+      }
     }
   }
 }

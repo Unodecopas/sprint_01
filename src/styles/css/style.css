@@ -92,6 +92,7 @@ body {
 }
 
 .welcome {
+  position: relative;
   background-color: var(--gray-color);
   color: var(--white-color);
   padding: 20px 20px 50px 20px;
@@ -294,6 +295,10 @@ body {
   margin-bottom: 24px;
 }
 .rooms__container2__slider {
+  background-image: url(../../../src/assets/img/room-minimal.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: var(--lightgray-color);
   height: 240px;
   margin-top: -50px;
@@ -585,4 +590,30 @@ body {
 }
 .footer__copyright__p1 {
   margin-bottom: 24px;
+}
+
+.breadcrumb {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  background-color: var(--white-color);
+  font-family: var(--archivo-font);
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 24px;
+}
+.breadcrumb a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+.breadcrumb a:hover {
+  color: var(--gold-color);
+}
+.breadcrumb span {
+  margin: 0 5px;
+  color: var(--black-color);
+}
+.breadcrumb p {
+  color: var(--gold-color);
 }/*# sourceMappingURL=style.css.map */
