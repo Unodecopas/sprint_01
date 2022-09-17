@@ -13,13 +13,13 @@
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 3px;
-    color: var(--lightgray-color);
+    color: var(--777777-color);
     margin-bottom: 24px;
   }
   &__p2 {
     font-size: 56px;
     letter-spacing: -1px;
-    color: var(--darkgray-color);
+    color: var(--222222-color);
     margin-bottom: 32px;
   }
   &__div1 {
@@ -30,13 +30,13 @@
         position: absolute;
         width: 120px; /****************************************************************************** DELETE WITH PHOTO */
         height: 120px; /***************************************************************************** DELETE WITH PHOTO */
-        background-color: var(--lightgray-color); /************************************************** DELETE WITH PHOTO */
+        background-color: var(--777777-color); /************************************************** DELETE WITH PHOTO */
         margin-bottom: 16px;
       }
       &__p1 {
         padding-top: 6px;
         margin-left: 150px;
-        color: var(--darkgray-color);
+        color: var(--222222-color);
         font-size: 24px;
         letter-spacing: -0.5px;
       }
@@ -58,6 +58,6 @@
     height: 450px; /********************************************************************************** DELETE WITH PHOTO */
     padding: 20px;
     margin: 60px auto 31px auto;
-    background-color: var(--lightgray-color);
+    background-color: var(--777777-color);
   }
 }
