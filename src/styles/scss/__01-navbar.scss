@@ -64,6 +64,7 @@
     }
     &__bar {
       position: relative;
+      z-index: 2;
       background-color: var(--FFFFFF-color);
       padding: 5px;
       margin: 40px 100px;
