@@ -5,34 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../src/styles/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>Hotel Miranda</title>
   </head>
   <body>
     <div class="navbar">
-      <div class="navbar__burger">
-        <img class="navbar__burger__open" src="../src/assets/icons/menu-burger.png" />
-        <img class="navbar__burger__close hidden" src="../src/assets/icons/menu-close.png" />
+      <div class="navbar__bg">
+        <div class="navbar__bar">
+          <div class="navbar__burger">
+            <img class="navbar__burger__open" src="../src/assets/icons/menu-burger.png" />
+            <img class="navbar__burger__close hidden" src="../src/assets/icons/menu-close.png" />
+          </div>
+          <div class="navbar__logo__bg">
+            <img class="navbar__logo__bg__h" src="../src/assets/icons/h.png" alt="logo" />
+          </div>
+          <img class="navbar__logo__title" src="../src/assets/icons/navbar-miranda.png" alt="Hotel Miranda" />
+          <img class="navbar__user" src="../src/assets/icons/user.png" alt="user logo" />
+          <img class="navbar__search" src="../src/assets/icons/search.png" alt="search" />
+          <ul class="navbar__menu hidden">
+            <a class="navbar__menu__a" href="./02-about.html">
+              <li class="navbar__menu__li navbar__menu__li--1">About Us</li>
+            </a>
+            <a class="navbar__menu__a" href="#rooms">
+              <li class="navbar__menu__li">Rooms</li>
+            </a>
+            <a class="navbar__menu__a" href="">
+              <li class="navbar__menu__li">Offers</li>
+            </a>
+            <a class="navbar__menu__a" href="">
+              <li class="navbar__menu__li">Contact</li>
+            </a>
+          </ul>
+        </div>
       </div>
-      <div class="navbar__logo__bg">
-        <img class="navbar__logo__bg__h" src="../src/assets/icons/h.png" alt="logo" />
-      </div>
-      <img class="navbar__logo__title" src="../src/assets/icons/navbar-miranda.png" alt="Hotel Miranda" />
-      <img class="navbar__user" src="../src/assets/icons/user.png" alt="user logo" />
-      <img class="navbar__search" src="../src/assets/icons/search.png" alt="search" />
-      <ul class="navbar__menu hidden">
-        <a class="navbar__menu__a" href="./02-about.html">
-          <li class="navbar__menu__li">About Us</li>
-        </a>
-        <a class="navbar__menu__a" href="#rooms">
-          <li class="navbar__menu__li">Rooms</li>
-        </a>
-        <a class="navbar__menu__a" href="">
-          <li class="navbar__menu__li">Offers</li>
-        </a>
-        <a class="navbar__menu__a" href="">
-          <li class="navbar__menu__li">Contact</li>
-        </a>
-      </ul>
     </div>
     <div class="welcome">
       <div class="welcome__container">
@@ -100,8 +105,25 @@
       <div class="rooms__container2">
         <p class="rooms__container2__p1">ROOMS</p>
         <p class="rooms__container2__p2">Hand Picked Rooms</p>
-        <img class="rooms__container2__img" src="../src/assets/icons/room-services.png" alt="" />
-        <div class="rooms__container2__slider"></div>
+        <img class="rooms__container2__img" src="../src/assets/icons/room-services.png" alt="room services icons" />
+        <!--<div class="rooms__container2__slider"></div>-->
+        <!--------------- Slider main container ----------->
+        <div class="swiper mySwiper rooms__container2__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="rooms__container2__slider__img" src="../src/assets/img/rooms/room-luxury.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img class="rooms__container2__slider__img" src="../src/assets/img/rooms/room-luxury2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img class="rooms__container2__slider__img" src="../src/assets/img/rooms/room-luxury3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <!----------------------- END ---------------------->
         <div class="rooms__container2__description">
           <p class="rooms__container2__description__p1">Minimal Duplex Room</p>
           <p class="rooms__container2__description__p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
@@ -116,7 +138,18 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.
       </p>
-      <video class="video__intro" src="../src/assets/video/intro.mp4" muted controls width="320"></video>
+      <div class="video__container">
+        <iframe
+          class="video__container__iframe"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Bu3Doe45lcU?controls=0&amp;start=25&end=75&rel=0&showinfo=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
       <button class="video__btn">BOOK NOW</button>
     </div>
     <div class="facilities">
@@ -236,5 +269,17 @@
       </div>
     </div>
     <script src="../src/scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
   </body>
 </html>

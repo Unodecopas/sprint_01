@@ -43,20 +43,19 @@
       color: var(--222222-color);
     }
     & ul {
-      min-width: 330px;
       max-width: 400px;
       columns: 2;
       font-family: var(--roboto-font);
       list-style: none;
       color: var(--777777-color);
-      font-size: 16px;
+      font-size: 15px;
       line-height: 48px;
       margin: 0 auto;
       margin-top: 24px;
     }
     &__contact {
       position: relative;
-      max-width: 300px;
+      max-width: 400px;
       margin: 32px auto 30px;
       & img {
         position: absolute;

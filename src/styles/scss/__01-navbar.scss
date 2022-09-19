@@ -55,3 +55,61 @@
     }
   }
 }
+@media only screen and (min-width: 1000px) {
+  .navbar {
+    background-color: var(--222222-color);
+    &__bg {
+      position: absolute;
+      width: 100%;
+    }
+    &__bar {
+      position: relative;
+      background-color: var(--FFFFFF-color);
+      padding: 5px;
+      margin: 40px 100px;
+    }
+    &__burger {
+      display: none;
+    }
+    &__logo {
+      &__bg {
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        margin: 17px 12px;
+        background: var(--FFFFFF-color);
+        box-shadow: 0px 14px 24px rgba(139, 139, 139, 0.25);
+        z-index: 2;
+        &__h {
+          padding: 11.5px;
+        }
+      }
+      &__title {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        margin: 25px 62px;
+      }
+    }
+    &__user {
+      top: 30px;
+    }
+    &__search {
+      top: 30px;
+    }
+    &__menu {
+      display: contents;
+      &__ul {
+        width: 100%;
+        margin-left: 160px;
+      }
+      &__li {
+        display: inline-block;
+        padding: 5px;
+        &--1 {
+          margin-left: 260px;
+        }
+      }
+    }
+  }
+}
