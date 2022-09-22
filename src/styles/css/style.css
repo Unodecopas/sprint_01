@@ -856,6 +856,7 @@ body {
 }
 
 .video {
+  width: 100%;
   max-width: 600px;
   margin: 0 auto;
   background-color: var(--222222-color);
@@ -1083,8 +1084,7 @@ body {
 }
 .footer__container ul {
   max-width: 400px;
-  -moz-columns: 2;
-       columns: 2;
+  columns: 2;
   font-family: var(--roboto-font);
   list-style: none;
   color: var(--777777-color);
@@ -1411,4 +1411,6 @@ body {
   color: var(--FFFFFF-color);
   background-color: var(--BEAD8E-color);
   border: 2px solid var(--BEAD8E-color);
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
